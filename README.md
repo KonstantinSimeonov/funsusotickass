@@ -11,8 +11,8 @@ Create your solution file in the directory of the problem. Run your solution aga
 # or
 
 ./runners/run.sh /problems/path/to/my/solution.py
-
-# might add haskell/scala and more if I'm feeling cute later
+./runners/run.sh /problems/path/to/my/solution.scala
+./runners/run.sh /problems/path/to/my/solution.go
 ```
 
 ![running a solution](./run-solution.gif)
@@ -29,7 +29,7 @@ grep -r --include='.tags' loops problems/
 - `runners/` directory contains implemeted runners for different languages
 
 ## Requiements
-- `node` or `python` installed and available in your path
+- `node`, `python`, `scala` or `go` installed and available in your path
 - bash v >= 4.0 or a compatible shell
 
 ## Hints

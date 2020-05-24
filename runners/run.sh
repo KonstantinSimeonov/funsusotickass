@@ -5,7 +5,7 @@ readonly dir=$(dirname "$1")
 readonly solution_filename=$(basename -- "$solution")
 readonly solution_extension="${solution_filename##*.}"
 
-declare -A runners=(["js"]="node --trace-uncaught" ["py"]="python")
+declare -A runners=(["js"]="node --trace-uncaught" ["py"]="python" ["go"]="go run" ["scala"]="scala" ["sc"]="scala")
 readonly command=${runners[$solution_extension]}
 echo $command $solution_extension
 
