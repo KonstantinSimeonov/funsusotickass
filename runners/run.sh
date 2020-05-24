@@ -22,9 +22,9 @@ do
     result=$(diff -wyB "$stdout_file" "${test_file/.in./.out.}")
 
     if [[ $? == 0 ]]; then
-        echo -e "$file_name \033[32;1;1mPASSING ${stats}\033[0m $runtime"
+        echo -e "$file_name \033[32;1;1mPASSING\033[0m $runtime"
     else
-        echo -e "$file_name \033[31;1;1mFAILING ${stats}\033[0m $runtime"
+        echo -e "$file_name \033[31;1;1mFAILING\033[0m $runtime"
         error=$(cat "$stderr_file")
         if [[ -n "$error" ]]
         then

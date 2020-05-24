@@ -11,6 +11,8 @@ Create your solution file in the directory of the problem. Run your solution aga
 # or
 
 ./runners/run.sh /problems/path/to/my/solution.py
+
+# might add haskell/scala and more if I'm feeling cute later
 ```
 
 ## Structure
@@ -18,10 +20,10 @@ Create your solution file in the directory of the problem. Run your solution aga
 - `runners/` directory contains implemeted runners for different languages
 
 ## Requiements
-- node or python
+- `node` or `python` installed and available in your path
 - bash v >= 4.0 or a compatible shell
 
-## Hints:
+## Hints
 
 ### Reading stdin to a string in nodejs environment:
 
