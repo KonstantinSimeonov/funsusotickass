@@ -5,8 +5,12 @@ Contains a couple programming problems and a few runners for solutions.
 ## Solving a problem
 Create your solution file in the directory of the problem. Run your solution against the tests:
 
-```
+```bash
 ./runners/run.sh /problems/path/to/my/solution.js
+
+# or
+
+./runners/run.sh /problems/path/to/my/solution.py
 ```
 
 ## Structure
@@ -14,8 +18,8 @@ Create your solution file in the directory of the problem. Run your solution aga
 - `runners/` directory contains implemeted runners for different languages
 
 ## Requiements
-- node
-- a bash-compatible shell
+- node or python
+- bash v >= 4.0 or a compatible shell
 
 ## Hints:
 
