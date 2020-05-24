@@ -17,6 +17,13 @@ Create your solution file in the directory of the problem. Run your solution aga
 
 ![running a solution](./run-solution.gif)
 
+## Searching for a problem
+
+```bash
+# find problems with "loops" tag
+grep -r --include='.tags' loops problems/
+```
+
 ## Structure
 - `problems/` directory contains the problem descriptions, their tests and test generators
 - `runners/` directory contains implemeted runners for different languages
