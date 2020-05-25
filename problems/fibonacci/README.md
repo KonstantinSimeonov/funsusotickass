@@ -28,3 +28,5 @@ A single line consisting of the **N**-th fibonacci number.
 | 8       | 21          |
 | 50      | 12586269025 |
 
+## Bonus
+Try solving the problem with and without linear data structures. You can also give recursion a spin.
