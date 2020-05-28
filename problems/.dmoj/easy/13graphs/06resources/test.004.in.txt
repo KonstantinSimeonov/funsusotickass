@@ -1,0 +1,20 @@
+19
+resource1.html needs resource5.js
+resource2.png needs resource4.css
+resource1.html needs resource4.css
+resource1.html needs resource8.html
+resource0.jpg needs resource7.png
+resource0.jpg needs resource6.js
+resource8.html needs resource7.png
+resource4.css needs resource3.jpg
+resource2.png needs resource6.js
+resource4.css needs resource5.js
+resource0.jpg needs resource2.png
+resource5.js needs resource3.jpg
+resource0.jpg needs resource3.jpg
+resource8.html needs resource4.css
+resource6.js needs resource5.js
+resource2.png needs resource1.html
+resource4.css needs resource6.js
+resource6.js needs resource7.png
+resource7.png needs resource5.js
