@@ -1,4 +1,4 @@
-You are chosen to represent Hogwards in the Triwizard tournament, despite being a mere muggle. You will face three challenges, the first of which being the maze. Unfortunately you can't cast any spells or use any magical items that might assist you in such scenario. Therefore, you decide to use your legendary C# skills to write a program, that would calculate the path for you. (Is Hogwards an IT academy now?!)
+You are chosen to represent Hogwards in the Triwizard tournament, despite being a mere muggle. You will face three challenges, the first of which being the maze. Unfortunately you can't cast any spells or use any magical items that might assist you in such scenario. Therefore, you decide to use your legendary programming skills to write a program, that would calculate the path for you. (Is Hogwards an IT academy now?!)
 
 You are given an N amount of 4 digit integers. To decode these numbers, you need to do the following:
 - If **the sum of the even digits** is greater than the sum of the odd ones, **turn left**.

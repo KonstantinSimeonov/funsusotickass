@@ -1,4 +1,4 @@
-The Triwizard tournament continues and you are faced with yet another challenge. This time, you have to craft confetti out of some very expensive sheets of paper. Again, you rely on your C# mastery in order to complete this challenge.
+The Triwizard tournament continues and you are faced with yet another challenge. This time, you have to craft confetti out of some very expensive sheets of paper. Again, you rely on your programming mastery in order to complete this challenge.
 
 A10 is a standard for paper size. A9 is another standard that is twice as big as A10, so A9 can be cut into 2 pieces of size A10. A8 is twice as big as A9 and so on. A0 is twice as big as A1. See the picture on the left.
 
