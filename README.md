@@ -6,13 +6,15 @@ Contains a couple programming problems and a few runners for solutions.
 Create your solution file in the directory of the problem. Run your solution against the tests:
 
 ```bash
-./runners/run.sh /problems/path/to/my/solution.js
+# you'll need to be in the root directory of the repo
+
+./runners/run.sh problems/path/to/my/solution.js
 
 # or
 
-./runners/run.sh /problems/path/to/my/solution.py
-./runners/run.sh /problems/path/to/my/solution.scala
-./runners/run.sh /problems/path/to/my/solution.go
+./runners/run.sh problems/path/to/my/solution.py
+./runners/run.sh problems/path/to/my/solution.scala
+./runners/run.sh problems/path/to/my/solution.go
 ```
 
 ![running a solution](./run-solution.gif)
