@@ -1,4 +1,4 @@
-# Weights
+# Bench press
 
 **Vanko** loves to train and have **big muscles** and fight with **mutant squirrels**. In fact, he enjoys fighting mutant squirrels so much, he wants to help other people try out his hobby. That's why he recently opened a gym, so that people can train, become stronger and fight mutant squirrels with him. Unfortunately, he's a bit low on cash but he knows how to use metal garbage pieces to make weights for a **lejanka**. He stacks metal pieces on top of each other and everyone can adjust the amount of weight they train with by putting a pin between any two pieces. Example:
 
