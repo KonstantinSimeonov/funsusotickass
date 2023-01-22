@@ -38,4 +38,4 @@ The solution should have a time/space complexity of at most O(N).
 |:------|:-------|
 | 1     | 1      |
 | 3     | 3      |
-| 5     | 5      |
+| 4     | 5      |
