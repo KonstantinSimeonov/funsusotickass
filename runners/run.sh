@@ -18,7 +18,7 @@ do
     { time $command "$solution" < "$test_file" > "$stdout_file" 2> "$stderr_file"; } 2> "$time_output"
 
     file_name=$(basename "$test_file")
-    runtime=$(grep real "$time_output" | egrep -o "[0-9]+\.[0-9]+s")
+    runtime=$(grep real "$time_output" | grep -Eo "[0-9]+\.[0-9]+s")
     result=$(diff -wyB "$stdout_file" "${test_file/.in./.out.}")
 
     if [[ $? == 0 ]]; then
